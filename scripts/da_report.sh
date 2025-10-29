@@ -1,6 +1,19 @@
-#!/usr/bin/env bash
+#!/bin/bash
+# SPDX-License-Identifier: LicenseRef-ITCMS-Free-1.0
+# ITCMS.GR Free License – All Rights Reserved
+# Copyright (c) 2025 Antonios Voulvoulis
+#
+################################################################################
+# DirectAdmin Account & Domain Report
+#
+# Description:
 # DirectAdmin Account & Domain Report
 # Outputs CSV: account,space_kb,domain,domain_php_version,hostname
+# Author: Antonios Voulvoulis
+# Contact: contact@itcms.gr
+# Website: https://itcms.gr
+#
+################################################################################
 
 set -euo pipefail
 
