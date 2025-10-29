@@ -9,7 +9,7 @@ Thank you for your interest in contributing! This document provides guidelines f
 This project is licensed under the **ITCMS.GR Free License (LicenseRef-ITCMS-Free-1.0)**, which has specific restrictions:
 
 - ✅ You may use this software freely
-- ❌ You may NOT modify, redistribute, or sell the software
+- ❌ You may NOT modify, redistribute, or sell the software as
 - ❌ Source code contributions are NOT accepted via pull requests
 
 ### How You Can Contribute
