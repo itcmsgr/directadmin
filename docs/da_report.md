@@ -9,5 +9,3 @@ Generates a CSV with columns: `account,space_kb,domain,domain_php_version,hostna
 ./scripts/da_report.sh
 DA_ADMIN_CLI="/usr/local/directadmin/directadmin" OUTPUT_FILE="/root/da_report.csv" ./scripts/da_report.sh
 ```
-
-Notes: PHP version is best‑effort (user default).
