@@ -76,22 +76,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ---
 
-## [Unreleased]
-
-### Planned Features
-
-- [ ] WebUI dashboard for DNS change history
-- [ ] Webhook support (Slack, Teams, Discord)
-- [ ] SIEM integration (Splunk, ELK, Graylog)
-- [ ] Advanced filtering and suppression rules
-- [ ] Per-domain notification settings
-- [ ] Multi-language email templates
-- [ ] Automated rollback functionality
-- [ ] API for programmatic access
-- [ ] Prometheus metrics exporter
-- [ ] Grafana dashboard templates
-
----
 
 ## Version History
 
