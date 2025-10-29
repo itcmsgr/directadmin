@@ -15,21 +15,13 @@ A comprehensive collection of production-ready scripts, hooks, and automation to
 ```
 directadmin/
 ├── scripts/
-│   ├── examples/
-│   │   └── dns/              # DNS Change Alert System (NIS2-compliant)
-│   │       ├── hooks/        # DirectAdmin DNS hooks
-│   │       ├── docs/         # DNS monitoring documentation
-│   │       ├── da_report.sh  # Domain/account reporting tool
-│   │       └── README.md     # DNS system documentation
-│   └── hooks/                # General DirectAdmin hooks
-├── docs/
-│   └── README.md             # General documentation
+│      └── dns/               # DNS Change Alert System (NIS2-compliant)
+├── docs/                     # Documentations
 ├── LICENSES/                 # License files
 ├── LICENSE.txt               # ITCMS Free License
 ├── SECURITY.md               # Security policy
 ├── CONTRIBUTING.md           # Contribution guidelines
 ├── CHANGELOG.md              # Version history
-├── init_git.sh               # Git initialization script
 └── README.md                 # This file
 ```
 
@@ -39,7 +31,7 @@ directadmin/
 
 ### 🌐 DNS Change Alert System
 
-**Location**: [`scripts/examples/dns/`](scripts/examples/dns/)
+**Location**: [`scripts/examples/dns/`](scripts/dns/)
 
 Real-time DNS monitoring and change notification system with NIS2 compliance support.
 
@@ -59,10 +51,10 @@ sudo chmod 755 /usr/local/directadmin/scripts/custom/*.sh
 ```
 
 **Documentation**:
-- [DNS System README](scripts/examples/dns/README.md)
-- [Installation & Configuration](scripts/examples/dns/docs/dns_change_notifications.md)
-- [Reporting Guide](scripts/examples/dns/docs/da_report.md)
-- [NIS2 Compliance](scripts/examples/dns/docs/NIS2.md)
+- [DNS System README](scripts/dns/README.md)
+- [Installation & Configuration](scripts/dns/docs/dns_change_notifications.md)
+- [Reporting Guide](scripts/dns/docs/da_report.md)
+- [NIS2 Compliance](scripts/dns/docs/NIS2.md)
 
 **Use Cases**:
 - Detect unauthorized DNS changes immediately
@@ -77,8 +69,8 @@ sudo chmod 755 /usr/local/directadmin/scripts/custom/*.sh
 
 ### For Hosting Providers
 
-- **DNS Monitoring**: [`scripts/examples/dns/`](scripts/examples/dns/) - Alert customers automatically
-- **Compliance**: [NIS2 Documentation](scripts/examples/dns/docs/NIS2.md) - Meet EU requirements
+- **DNS Monitoring**: [`scripts/examples/dns/`](scripts/dns/) - Alert customers automatically
+- **Compliance**: [NIS2 Documentation](scripts/dns/docs/NIS2.md) - Meet EU requirements
 - **Reporting**: DNS reporting tool for customer inventories
 
 ### For System Administrators
@@ -241,16 +233,6 @@ Need custom development, integration, or consulting?
 - ✅ NIS2 Compliance Documentation
 - ✅ Multi-Server DNS Support
 
-### Planned Features
-
-- [ ] Backup automation scripts
-- [ ] User management utilities
-- [ ] Email account monitoring
-- [ ] Database backup hooks
-- [ ] SSL certificate monitoring
-- [ ] Resource usage alerts
-
----
 
 ## 🙏 Acknowledgments
 
