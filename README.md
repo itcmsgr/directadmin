@@ -1,4 +1,4 @@
-# DirectAdmin Administration Scripts & Tools
+# DirectAdmin Panel Administration Scripts & Tools
 
 > **Professional automation and monitoring tools for DirectAdmin control panel**
 
@@ -6,7 +6,7 @@
 [![DirectAdmin](https://img.shields.io/badge/DirectAdmin-Compatible-green.svg)](https://www.directadmin.com/)
 [![Production Ready](https://img.shields.io/badge/Status-Production%20Ready-success.svg)]()
 
-A comprehensive collection of production-ready scripts, hooks, and automation tools for DirectAdmin system administrators, hosting providers, and infrastructure operators. All tools are designed for enterprise use with proper error handling, logging, and security practices.
+A comprehensive collection of production-ready scripts, hooks, and automation tools for DirectAdmin Panel system administrators, hosting providers, and infrastructure operators. All tools are designed for enterprise use with proper error handling, logging, and security practices.
 
 ---
 
