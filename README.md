@@ -31,7 +31,7 @@ directadmin/
 
 ### 🌐 DNS Change Alert System
 
-**Location**: [`scripts/examples/dns/`](scripts/dns/)
+**Location**: [`scripts/dns/`](scripts/dns/)
 
 Real-time DNS monitoring and change notification system with NIS2 compliance support.
 
@@ -44,7 +44,7 @@ Real-time DNS monitoring and change notification system with NIS2 compliance sup
 
 **Quick Start**:
 ```bash
-cd scripts/examples/dns
+cd scripts/dns
 cat README.md  # Read full documentation
 sudo cp hooks/*.sh /usr/local/directadmin/scripts/custom/
 sudo chmod 755 /usr/local/directadmin/scripts/custom/*.sh
@@ -69,7 +69,7 @@ sudo chmod 755 /usr/local/directadmin/scripts/custom/*.sh
 
 ### For Hosting Providers
 
-- **DNS Monitoring**: [`scripts/examples/dns/`](scripts/dns/) - Alert customers automatically
+- **DNS Monitoring**: [`scripts/dns/`](scripts/dns/) - Alert customers automatically
 - **Compliance**: [NIS2 Documentation](scripts/dns/docs/NIS2.md) - Meet EU requirements
 - **Reporting**: DNS reporting tool for customer inventories
 
@@ -104,13 +104,13 @@ git clone https://github.com/YOUR-USERNAME/directadmin.git
 cd directadmin
 
 # 2. Choose your tool
-ls scripts/examples/
+ls scripts//
 
 # 3. Read tool documentation
-cat scripts/examples/dns/README.md
+cat scripts/dns/README.md
 
 # 4. Follow tool-specific installation instructions
-cd scripts/examples/dns
+cd scripts/dns
 # ... follow installation steps in README.md
 ```
 
@@ -255,8 +255,6 @@ See [CHANGELOG.md](CHANGELOG.md) for version history.
 
 **ITCMS.GR** develops professional tools for hosting providers, system administrators, and digital infrastructure operators.
 
-**Other Projects**:
-- ClientExec DNS Alert - DNS monitoring for ClientExec billing systems
 
 **Website**: https://itcms.gr
 
