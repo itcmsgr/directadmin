@@ -24,7 +24,7 @@ Automated DNS change detection and notification system for DirectAdmin. Provides
 
 ```bash
 # From directadmin root directory
-cd scripts/examples/dns
+cd scripts/dns
 
 # Install hooks
 sudo install -d -m 0755 /usr/local/directadmin/scripts/custom
