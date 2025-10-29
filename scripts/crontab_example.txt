@@ -1,1 +1,0 @@
-15 2 * * * /usr/local/bin/da_report >> /var/log/da_report.log 2>&1
