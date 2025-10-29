@@ -46,7 +46,7 @@ Real-time DNS monitoring and change notification system with NIS2 compliance sup
 ```bash
 cd scripts/dns
 cat README.md  # Read full documentation
-sudo cp hooks/*.sh /usr/local/directadmin/scripts/custom/
+sudo cp *.sh /usr/local/directadmin/scripts/custom/
 sudo chmod 755 /usr/local/directadmin/scripts/custom/*.sh
 ```
 
