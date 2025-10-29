@@ -44,10 +44,26 @@ Real-time DNS monitoring and change notification system with NIS2 compliance sup
 
 **Quick Start**:
 ```bash
+# From directadmin root directory
 cd scripts/dns
-cat README.md  # Read full documentation
-sudo cp *.sh /usr/local/directadmin/scripts/custom/
-sudo chmod 755 /usr/local/directadmin/scripts/custom/*.sh
+
+# Install hooks
+sudo install -d -m 0755 /usr/local/directadmin/scripts/custom
+sudo cp all_pre.sh /usr/local/directadmin/scripts/custom/
+sudo cp da_report.sh /usr/local/directadmin/scripts/custom/
+sudo cp dns_raw_save_post.sh /usr/local/directadmin/scripts/custom/
+sudo cp dns_write_post.sh /usr/local/directadmin/scripts/custom/
+sudo chmod 755 /usr/local/directadmin/scripts/custom/all_pre.sh
+sudo chmod 755 /usr/local/directadmin/scripts/custom/da_report.sh 
+sudo chmod 755 /usr/local/directadmin/scripts/custom/dns_raw_save_post.sh 
+sudo chmod 755 /usr/local/directadmin/scripts/custom/write_post.sh
+
+# Install reporting tool
+sudo cp da_report.sh /usr/local/bin/da_report
+sudo chmod +x /usr/local/bin/da_report
+
+# Test
+sudo tail -f /var/log/da-hooks/dns_notify.log
 ```
 
 **Documentation**:
