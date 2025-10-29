@@ -122,7 +122,7 @@ git clone https://github.com/YOUR-USERNAME/directadmin.git
 cd directadmin
 
 # 2. Choose your tool
-ls scripts//
+ls scripts/
 
 # 3. Read tool documentation
 cat scripts/dns/README.md
