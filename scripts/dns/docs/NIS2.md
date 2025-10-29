@@ -89,7 +89,7 @@ DNS is explicitly mentioned in NIS2 as critical infrastructure. Service provider
 
 ```bash
 # Install DNS monitoring hooks
-sudo cp scripts/hooks/all_pre.sh scripts/hooks/dns_write_post.sh \
+sudo cp scripts/dns/all_pre.sh scripts/dns/dns_write_post.sh \
     /usr/local/directadmin/scripts/custom/
 sudo chmod 755 /usr/local/directadmin/scripts/custom/*.sh
 ```

@@ -73,8 +73,8 @@ The DNS Change Notification system uses DirectAdmin custom hooks to detect DNS z
 sudo mkdir -p /usr/local/directadmin/scripts/custom
 
 # Copy hook scripts
-sudo cp scripts/hooks/all_pre.sh \
-        scripts/hooks/dns_write_post.sh \
+sudo cp scripts/dns/all_pre.sh \
+        scripts/dns/dns_write_post.sh \
         /usr/local/directadmin/scripts/custom/
 
 # Set executable permissions
@@ -319,7 +319,7 @@ For DirectAdmin Multi-Server DNS configurations, use the additional `dns_raw_sav
 
 ```bash
 # Install cluster hook
-sudo cp scripts/hooks/dns_raw_save_post.sh \
+sudo cp scripts/dns/dns_raw_save_post.sh \
     /usr/local/directadmin/scripts/custom/
 sudo chmod 755 /usr/local/directadmin/scripts/custom/dns_raw_save_post.sh
 ```
